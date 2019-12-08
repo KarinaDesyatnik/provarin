@@ -30,10 +30,6 @@ $('.sticky-header').removeClass("sticky");
 //-------end sticky header--------
 
 // ------start faq ------
-$('.faq__item h2').click(function(){
-		$(this).parent().toggleClass('active');
-		
-	})
 
 $('.faq__sub-item h3').click(function(){
 		$(this).parent().toggleClass('active');
